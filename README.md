@@ -18,7 +18,7 @@ Currently there are just a few of these to start out with:
 
 1. inputPath: name and path of the input Excel file (current I'm just using "input.xlsx" in the bin/debug folder, so change this based on your preference
 2. outputPath: name and path of the output text file - same as above.
-3. minimumCommentChars - I set this up so as to get rid of comments that are like "great video" and such. You can set this to zero if you want to show all comments regardless of length
+3. minimumCommentChars - I set this up so as to get rid of comments that are like "great video" and such. You can set this to zero if you want to show all comments regardless of length. I find this particularly useful when there are **HUGE** numbers of comments in filterning down some of the less... insightful ones.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -26,7 +26,7 @@ Currently there are just a few of these to start out with:
 
 The first thing I'll probably do with this is to upgrade the .Net version from 5.0 to a newer one, but this works fine for now, so I just kept it as is and will upgrade this as time allows, since I'm not as familiar with the newer framework configuration and syntax.
 
-Otherse, this is by far a perfect formatter! There are issues with indentation that I haven't quite figured out, so these could be addressed. There could also be settings to include/exclude emojis, and of course we could also have an option to save this as an html-formatted document or even markdown, for those who find those formats preferrable. There might also be config settings for including like scores and handle names of comment authors (I felt these to be things that would just add length without real added value, but some might prefer to see these, at least for reading consumption). The spreadsheet also has links to the youtube profiles of each handle for all the replies to a comment, although not the original comment for some reason, so for an html document those could be included, and even timestamps based on config settings.
+Otherwise, this is by far a perfect formatter! There are issues with indentation that I haven't quite figured out, so these could be addressed. There could also be settings to include/exclude emojis, and of course we could also have an option to save this as an html-formatted document or even markdown, for those who find those formats preferrable. There might also be config settings for including like scores and handle names of comment authors (I felt these to be things that would just add length without real added value, but some might prefer to see these, at least for reading consumption). The spreadsheet also has links to the youtube profiles of each handle for all the replies to a comment, although not the original comment for some reason, so for an html document those could be included, and even timestamps based on config settings.
 
 ## License
 
